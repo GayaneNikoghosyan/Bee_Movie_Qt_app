@@ -59,7 +59,8 @@ class Bee(QWidget):
         return False
 
 
-app = QApplication([])
-win = Bee()
-win.show()
-app.exec()
+if __name__ == '__main__':
+    app = QApplication([])
+    win = Bee()
+    win.show()
+    app.exec()
